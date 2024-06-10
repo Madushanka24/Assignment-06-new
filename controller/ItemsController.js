@@ -21,7 +21,7 @@ $('#nav-items-section').on('click',() => {
     function styleButton(button) {
         button.css({
             background: 'none',
-            color: '#B05200',
+            color: '#1e2529',
             padding: '18px 28px',
             border: '30px',
             text: 'none',
@@ -39,13 +39,13 @@ $('#nav-items-section').on('click',() => {
     function applyHoverEffect(button) {
         button.hover(function () {
             $(this).css({
-                background: '#B05200',
+                background: '#1e2529',
                 color: '#FEE5D4'
             });
         }, function () {
             $(this).css({
                 background: 'none',
-                color: '#B05200',
+                color: '#1e2529',
                 padding: '18px 28px',
                 border: '30px',
                 text: 'none',
@@ -63,7 +63,7 @@ $('#nav-items-section').on('click',() => {
     the css style in the orders page btn.This is because all the css is applied to one file (SPA)*/
     $(items).hover(function (){
         $(this).css({
-            background: '#B05200',
+            background: '#1e2529',
             color: '#FEE5D4'
         });
     });
