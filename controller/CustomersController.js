@@ -20,7 +20,7 @@ $('#nav-customers-section').on('click',() => {
     function styleButton(button) {
         button.css({
             background: 'none',
-            color: '#1e2529',
+            color: '#FFEEE2',
             padding: '18px 28px',
             border: '30px',
             text: 'none',
@@ -38,13 +38,13 @@ $('#nav-customers-section').on('click',() => {
     function applyHoverEffect(button) {
         button.hover(function () {
             $(this).css({
-                background: '#1e2529',
+                background: '#FFEEE2',
                 color: '#FEE5D4'
             });
         }, function () {
             $(this).css({
                 background: 'none',
-                color: '#1e2529',
+                color: '#FFEEE2',
                 padding: '18px 28px',
                 border: '30px',
                 text: 'none',
