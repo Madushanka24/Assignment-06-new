@@ -62,7 +62,7 @@ $('#nav-customers-section').on('click',() => {
     the css style in the orders page btn.This is because all the css is applied to one file (SPA)*/
     $(customers).hover(function (){
         $(this).css({
-            background: '#1e2529',
+            background: '#FFEEE2',
             color: '#FEE5D4'
         });
     });
