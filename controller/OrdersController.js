@@ -25,7 +25,7 @@ $('#nav-orders-section').on('click', () => {
     function styleButton(button) {
         button.css({
             background: 'none',
-            color: '#1e2529',
+            color: '#FFEEE2',
             padding: '18px 28px',
             border: '30px',
             text: 'none',
