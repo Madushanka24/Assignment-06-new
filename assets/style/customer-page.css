@@ -101,7 +101,7 @@ table.table.table-bordered > tbody > tr > td {
 #customers-main-section > input {
     width: 140px;
     height: 45px;
-    background-color: #1e2529;
+    background-color: white;
     border: 2px solid #1e2529;
     border-radius: 25px;
 }
@@ -273,7 +273,7 @@ table.table.table-bordered > tbody > tr > td {
 #totalCustomers {
     width: 250px;
     height: 160px;
-    background-color: #1e2529;
+    background-color: white;
     border: 3px solid #1e2529;
     border-radius: 30px;
     position: absolute;
